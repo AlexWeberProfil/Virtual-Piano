@@ -1,0 +1,66 @@
+body {
+    background-color: darkseagreen;
+}
+
+.white-keys kbd {
+    display: inline-block;
+    background-color: white;
+    height: 150px;
+    width: 50px;
+    border: solid grey 5px;
+    text-align: center;
+    line-height: 200px;
+    margin-left: -5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.black-keys kbd {
+    background-color: black;
+    display: inline-block;
+    height: 15px;
+    width: 1px;
+    padding: 60px 15px 15px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: max-content;
+    margin: 10% auto;
+}
+
+#first {
+    position: relative;
+    z-index: 1;
+    left: -75px;
+    top: -160px;
+    margin-left: 110px;
+}
+
+#second {
+    position: relative;
+    z-index: 1;
+    left: -51px;
+    top: -160px;
+}
+
+#third {
+    position: relative;
+    z-index: 1;
+    left: 30px;
+    top: -160px;
+}
+
+#fourth {
+    position: relative;
+    z-index: 1;
+    left: 55px;
+    top: -160px;
+}
+
+#fifth {
+    position: relative;
+    z-index: 1;
+    left: 76px;
+    top: -160px;
+}
